@@ -7,12 +7,26 @@
 	list-style-type: none;
 	padding: 0;
 }
-li
+.li
 {
 	width:350px;
+	height: 30px;
 	background-color: #fff;
 	padding:0;
-	margin-bottom: 1px;
+	border-bottom: 1px solid #000;
+}
+.add
+{
+	width:350px;
+	/*height: 30px;*/
+	background-color: #fff;
+	padding:0;
+	border-bottom: 1px solid #000;
+}
+.add li{
+	border-bottom: 1px solid #000;
+	height: 30px;
+	
 }
 input
 {
@@ -29,7 +43,7 @@ input
 	color: #fff;
 	background-color: #acf;
 	float: right;
-	text-align: center;
+	
 	font-weight: bold;
 	border: 0;
 	/*border-bottom-right-radius: 7px;*/
