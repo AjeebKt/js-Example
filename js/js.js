@@ -3,5 +3,5 @@ function add() {
     var txt = document.getElementById('txt').value;
     var t = document.createTextNode(txt);
     x.appendChild(t);
-    document.body.appendChild(x);
+    document.getElementById("add").appendChild(x);
 }
