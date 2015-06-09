@@ -1,0 +1,47 @@
+.to-do
+{
+	margin-left:auto;
+	margin-right: auto;
+	width:350px;
+	/*background-color: #ccc;*/
+	list-style-type: none;
+	padding: 0;
+}
+li
+{
+	width:350px;
+	background-color: #fff;
+	padding:0;
+}
+input
+{
+	width: 315px;
+	height: 30px;
+	border: 0px solid #000;
+	background-color: #ddd;
+	/*border-bottom-left-radius: 7px;*/
+}
+.plus{
+	/*padding:0;*/
+	width: 30px;
+	height: 32px;
+	color: #fff;
+	background-color: #acf;
+	float: right;
+	text-align: center;
+	font-weight: bold;
+	border: 0;
+	/*border-bottom-right-radius: 7px;*/
+}
+.lbl
+{
+	width: 250px;
+	height: 30px
+	background-color:black;
+}
+.to-do-li{
+	/*width: 100%;
+*/	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+	background-color: #00f;
+}
