@@ -12,10 +12,10 @@ body{
 }
 .li
 {
-	width:350px;
-	height: 30px;
-	background-color: #fff;
-	padding:0;
+	/*width:350px;*/
+	height: 25px;
+	background-color: #E6E6E6;
+	padding:7px;
 	border-bottom: 1px solid #000;
 }
 .add
