@@ -49,16 +49,13 @@ input
 	color: #fff;
 	background-color: #6A6A6A;
 	float: right;
-	
 	font-weight: bold;
 	border: 0;
 	/*border-bottom-right-radius: 7px;*/
 }
-.lbl
+.text
 {
-	width: 250px;
-	height: 30px
-	background-color:black;
+	margin: 0;
 }
 .to-do-li{
 	/*width: 100%;*/
@@ -66,7 +63,7 @@ input
 	border-top-right-radius: 4px;
 	background-color: #246;
 	height: 30px;
-	text-align: center;
+	 -align: center;
 	padding-top: 10px;
 	color: #fff;
 }
