@@ -5,18 +5,18 @@ function add() {
 	var ToDoVal = document.getElementById('txt').value;
 var ulList = document.getElementById("todo-list");
 
-console.log(ulList.childNodes
-	);
+console.log(ulList.childNodes);
 
 	if (ToDoVal){
 	    var createLi = document.createElement("LI");
-	    var txtValue = document.getElementById('txt').value;
-	    var node = document.createTextNode(txtValue);
+	    var node = document.createTextNode(ToDoVal);
 	    createLi.appendChild(node);
+
+
 	    document.getElementById("ul").appendChild(createLi);
 	    document.getElementById("txt").value= "";		
 	}else{
-		alert("please add to do in to the input field");
+		// alert("please add to do in to the input field");
 	}
 	// document.getElementById("txt").setAttribute("placeholder","End");
 }
